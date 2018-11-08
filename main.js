@@ -95,14 +95,14 @@ function playerPosition(e) {
 
 function speedUp() {
     //predkość X
-    if (ballSpeedX > 0 && ballSpeedX < 16) //czyli piłka przemieszcza sie w prawo
+    if (ballSpeedX > 0 && ballSpeedX < 16) 
         ballSpeedX++;
-    else if (ballSpeedX < 0 && ballSpeedX > -16) ballSpeedX--; //piłka przemieszcza się w lewo
+    else if (ballSpeedX < 0 && ballSpeedX > -16) ballSpeedX--;
 
     //predkość Y
-    if (ballSpeedY > 0 && ballSpeedY < 16) //czyli piłka przemieszcza sie w dół
+    if (ballSpeedY > 0 && ballSpeedY < 16) 
         ballSpeedY++;
-    else if (ballSpeedY < 0 && ballSpeedY > -16) ballSpeedY--; //piłka przemieszcza się w góre
+    else if (ballSpeedY < 0 && ballSpeedY > -16) ballSpeedY--; 
 
 }
 
